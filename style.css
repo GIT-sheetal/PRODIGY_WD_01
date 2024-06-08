@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+ .naw{
+   display:flex;
+   position:fixed;
+   width: 100%;
+   padding: 10px 0;
+   background-color: rgb(182, 161, 161);
+   color: aliceblue;
+   justify-content: center;
+}
+.naw ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+   
+}
+.naw li{
+    margin: 0 20px;
+    background-color: rgb(182, 161, 161);
+}
+.naw li a{
+    font-size: 150%;
+    text-decoration: none;
+}
+li a:hover{
+    color: black;
+}
+section{
+    padding: 100px 20px;
+    height:100%;
+   
+    
+} 
+body{
+    font-size: 150%;
+}
+.content{
+    padding-top: 60px
+   
+}
+#home{
+    background-color:beige ;
+}
+#blog{
+    background-color: grey;
+}
+#feature{
+    background-color: rgb(240, 178, 96);
+}
+#contact{
+    background-color:rgb(107, 238, 227) ;
+}
